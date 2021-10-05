@@ -1,0 +1,147 @@
+/*
+borda de todo o login
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    border: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(https://lh3.googleusercontent.com/pw/AM-JKLXqCmti_2jOXFvcPRjv1_zZC_Dl0_srNS3ixT3VN9d45R3Yr0AFJi1JAmLhN5_uzygkKpYfx5NWt4WIy4u_-RbZ30Le1ZIFjIjn09c2Nwj_Hm7fHW9P98e0oWRIcKruwA4RL-vPQtacGvJzYDby8cmRIg=w1078-h606-no?authuser=0);
+    background-size: cover; 
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+h1 {
+    color: #fff;
+}
+a, #memory, #face{
+    font-size: .8rem;
+    color: #b3b3b3;
+    margin-left: 5px;
+}
+
+a:hover{
+    color: #f3f3f3;
+}
+#logo {
+    margin-top: 12px; 
+    margin-left: 2%; 
+    filter:contrast(100);
+}
+
+#containerTotal {
+    background-color:rgba(0,0,0,0.7);
+    width: 452px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 70px 40px;
+    margin-top: 15px;
+    margin-block-end: 80px;
+    text-align: left;
+    border-radius: 4px;
+
+}
+/* Formulário
+<a href= "https://www.netflix.com/br/login";> link pra mudar de pagina após clicar em "Entrar"
+*/
+
+button{ 
+    display: block;
+    background: #e50914; 
+    border-radius: 5px; 
+    padding: 12px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none;  
+    width: 100%;
+    font-size: 17px;
+}
+button{
+    text-align:center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}   
+form{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+input[type=email] { 
+    padding: 16px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51);
+    font-size: 100%; 
+    width: 100%;
+}
+input[type=password] { 
+    padding: 16px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    background-color: rgb(51,51,51);
+    font-size: 100%; 
+    width: 100%;
+}
+input:focus{
+    border-bottom: 3px solid #e87c03;
+}
+#email {
+    color: #f3f3f3;
+}
+ /* 
+ Parte que mais me complicou, e o rodapé
+ */
+
+#memory, #help {
+     color: #b3b3b3;
+     text-align: center;
+ }
+#help{
+    margin-left: 77px;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.iconFacebook{
+     filter: contrast(1.50);
+ }
+#assinatura {
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+}
+#protecao{
+    font-size: 13px; 
+    color: #737373; 
+    margin-top: 11px;
+}
+#new{
+    color: #737373; 
+    font-size: 16px; 
+    margin-top: 16px;
+}
+#info{
+    color: #0071eb
+}
+#socialContainer{
+    margin-top: 50px;
+}
+
+
+
+ 
+
+
+
