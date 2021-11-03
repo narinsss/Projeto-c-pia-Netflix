@@ -1,15 +1,5 @@
-## Cookie de chocolate :cookie:
+## NETFLIX   :tv:
 
-- Açúcar mascavo
+#### Cópia do site de streaming mais precioso do mundo.
 
-- Açúcar cristal
-
-- Trigo tradicional
-
-- Fermento biológico seco
-
-- Chocolate em pó
-
-- Manteiga sem sal
-
-- Ovos
+####Fiz para testar meus conhecimentos, e o layout como desafio da Digital Innovation One. 
