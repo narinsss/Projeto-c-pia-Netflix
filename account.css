@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+body{
+    background: #141414;
+    margin: auto;
+}
+
+.logo_c{
+    width: 108px;
+    height: 35px;
+    padding-top: 21px;
+    padding-left: 45px;
+    filter: contrast(90);
+}
+
+p{
+    text-align: center;
+    color: #fff;
+    margin-top: 125px;
+    font-size: 48.5px;
+}
+
+.profile_c{
+    width: 140px;
+    height: 140px;
+    border-radius: 6px;
+}
+
+.profiles_c{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.one_c{
+    margin-right: 25px;
+}
+
+.two_c{
+    margin-right: 25px;
+}
+
+.three_c{
+    margin-right: 25px;
+}
+
+.one_c, .two_c, .three_c, .four_c{
+    display: inline-block;
+    cursor: pointer;
+}
+
+span{
+    color: grey;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+#one{
+    margin-left: 30px;   
+}
+
+#two{
+    margin-left: 48px;   
+}
+
+#three{
+    margin-left: 42px;   
+}
+
+#four{
+    margin-left: 8px;   
+}
+
+.one_c:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease;
+}
+
+.two_c:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease;
+}
+
+.three_c:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease;
+}
+
+.four_c:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease;
+}
+
+button{
+    padding: 8px 30px 8px 30px;
+    display: flex;
+    margin: auto;
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 18px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
